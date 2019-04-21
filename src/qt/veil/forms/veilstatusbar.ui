@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>440</width>
+    <width>532</width>
     <height>40</height>
    </rect>
   </property>
@@ -91,7 +91,7 @@
        </widget>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0,0">
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0,0,0">
         <property name="leftMargin">
          <number>9</number>
         </property>
@@ -173,6 +173,25 @@
            </size>
           </property>
          </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnSyncIndicator">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>0%</string>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QPushButton" name="btnLock">

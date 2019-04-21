@@ -17,6 +17,7 @@ VeilStatusBar::VeilStatusBar(QWidget *parent, BitcoinGUI* gui) :
     ui->setupUi(this);
 
     connect(ui->btnSync, SIGNAL(clicked()), this, SLOT(onBtnSyncClicked()));
+    connect(ui->btnSyncIndicator, SIGNAL(clicked()), this, SLOT(onBtnSyncClicked()));
 
 #ifdef ENABLE_WALLET
     if (!gArgs.GetBoolArg("-disablewallet", DEFAULT_DISABLE_WALLET)) {
