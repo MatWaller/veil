@@ -923,7 +923,7 @@ void BitcoinGUI::setNumBlocks(int count, const QDateTime& blockDate, double nVer
             veilStatusBar->updateSyncStatus(tr("Connecting to peers..."));
             break;
     }
-
+    veilStatusBar->updateSyncIndicator(count);
     QString tooltip;
 
     QDateTime currentDate = QDateTime::currentDateTime();

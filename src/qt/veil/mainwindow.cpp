@@ -55,7 +55,7 @@
     initTxesView();
 
     ui->progressBar->setValue(67);
-    ui->progressBar->setAlignment(Qt::AlignCenter);
+    ui->progressBar->setAlignment(Qt::AlignCenter);    
 
      // Sort
     ui->comboSort->setProperty("cssClass" , "btn-text-primary-inactive");

@@ -41,6 +41,11 @@ void VeilStatusBar::updateSyncStatus(QString status){
     ui->btnSync->setText(status);
 }
 
+void VeilStatusBar::updateSyncIndicator(int height){
+    QString str;
+    ui->btnSyncIndicator->setText(str.setNum(height));
+}
+
 void VeilStatusBar::setSyncStatusVisible(bool fVisible) {
     ui->btnSync->setVisible(fVisible);
 }
