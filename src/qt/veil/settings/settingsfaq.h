@@ -40,6 +40,8 @@ private Q_SLOTS:
     void onRadioButton09Clicked();
     void onRadioButton10Clicked();
     void onRadioButton11Clicked();
+    void onRadioButton12Clicked();
+
     void changeScreen(QWidget *widget);
 
 private:
