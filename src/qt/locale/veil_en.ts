@@ -3961,6 +3961,19 @@ For the latest information, please see the Official Veil Bounty Program thread o
     </message>
 </context>
 <context>
+    <name>SettingsFaq12</name>
+    <message>
+        <location filename="../veil/forms/settingsfaq12.ui" line="+14"/>
+        <source>Form</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Unlocking/Locking the wallet from within the GUI&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;At the bottom right of the veil wallet GUI a padlock icon is displayed showing the current lock status of your wallet, clicking the padlock when it is its locked state will display a prompt asking you for your wallet password if entered correctly your wallet will be unlocked.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;To lock your wallet again you click the now unlocked padlock.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SettingsMinting</name>
     <message>
         <location filename="../veil/forms/settingsminting.ui" line="+14"/>

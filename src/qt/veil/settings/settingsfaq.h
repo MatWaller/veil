@@ -14,6 +14,7 @@
 #include <qt/veil/settings/settingsfaq09.h>
 #include <qt/veil/settings/settingsfaq10.h>
 #include <qt/veil/settings/settingsfaq11.h>
+#include <qt/veil/settings/settingsfaq12.h>
 
 
 namespace Ui {
@@ -40,6 +41,8 @@ private Q_SLOTS:
     void onRadioButton09Clicked();
     void onRadioButton10Clicked();
     void onRadioButton11Clicked();
+    void onRadioButton12Clicked();
+
     void changeScreen(QWidget *widget);
 
 private:
@@ -55,6 +58,7 @@ private:
     SettingsFaq09 *faq09 = nullptr;
     SettingsFaq10 *faq10 = nullptr;
     SettingsFaq11 *faq11 = nullptr;
+    SettingsFaq12 *faq12 = nullptr;
 };
 
 #endif // SETTINGSFAQ_H
