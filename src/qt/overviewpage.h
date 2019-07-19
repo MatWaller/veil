@@ -61,9 +61,9 @@ private Q_SLOTS:
     void sortTxes(const QString& selectedStr);
     void filterTxes(int selectedTxType);
     void onFaqClicked();
-    virtual void showEvent(QShowEvent *event) override;
-
     void hideOrphans(bool fHide);
+    virtual void showEvent(QShowEvent *event) override;
+    virtual void hideEvent(QHideEvent *event) override;
 };
 
 #endif // BITCOIN_QT_OVERVIEWPAGE_H
